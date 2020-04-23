@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Dreamacro/clash/component/dialer"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/Echowxsy/clash/component/dialer"
+	C "github.com/Echowxsy/clash/constant"
 
 	shadowsocksr "github.com/Echowxsy/gossr"
 	"github.com/Echowxsy/gossr/obfs"

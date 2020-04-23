@@ -1,19 +1,19 @@
 <h1 align="center">
-  <img src="https://github.com/Dreamacro/clash/raw/master/docs/logo.png" alt="Clash" width="200">
+  <img src="https://github.com/Echowxsy/clash/raw/master/docs/logo.png" alt="Clash" width="200">
   <br>Clash<br>
 </h1>
 
 <h4 align="center">A rule-based tunnel in Go.</h4>
 
 <p align="center">
-  <a href="https://github.com/Dreamacro/clash/actions">
-    <img src="https://img.shields.io/github/workflow/status/Dreamacro/clash/Go?style=flat-square" alt="Github Actions">
+  <a href="https://github.com/Echowxsy/clash/actions">
+    <img src="https://img.shields.io/github/workflow/status/Echowxsy/clash/Go?style=flat-square" alt="Github Actions">
   </a>
-  <a href="https://goreportcard.com/report/github.com/Dreamacro/clash">
-    <img src="https://goreportcard.com/badge/github.com/Dreamacro/clash?style=flat-square">
+  <a href="https://goreportcard.com/report/github.com/Echowxsy/clash">
+    <img src="https://goreportcard.com/badge/github.com/Echowxsy/clash?style=flat-square">
   </a>
-  <a href="https://github.com/Dreamacro/clash/releases">
-    <img src="https://img.shields.io/github/release/Dreamacro/clash/all.svg?style=flat-square">
+  <a href="https://github.com/Echowxsy/clash/releases">
+    <img src="https://img.shields.io/github/release/Echowxsy/clash/all.svg?style=flat-square">
   </a>
 </p>
 
@@ -33,11 +33,11 @@
 Clash requires Go >= 1.13. You can build it from source:
 
 ```sh
-$ go get -u -v github.com/Dreamacro/clash
+$ go get -u -v github.com/Echowxsy/clash
 ```
 
-Pre-built binaries are available here: [release](https://github.com/Dreamacro/clash/releases)  
-Pre-built TUN mode binaries are available here: [TUN release](https://github.com/Dreamacro/clash/releases/tag/TUN). Source is not currently available.
+Pre-built binaries are available here: [release](https://github.com/Echowxsy/clash/releases)  
+Pre-built TUN mode binaries are available here: [TUN release](https://github.com/Echowxsy/clash/releases/tag/TUN). Source is not currently available.
 
 Check Clash version with:
 
@@ -55,7 +55,7 @@ In the case of [pm2](https://github.com/Unitech/pm2), start the daemon this way:
 $ pm2 start clash
 ```
 
-If you have Docker installed, it's recommended to deploy Clash directly using `docker-compose`: [run Clash in Docker](https://github.com/Dreamacro/clash/wiki/Run-clash-in-docker)
+If you have Docker installed, it's recommended to deploy Clash directly using `docker-compose`: [run Clash in Docker](https://github.com/Echowxsy/clash/wiki/Run-clash-in-docker)
 
 ## Config
 
@@ -350,7 +350,7 @@ rules:
 </details>
 
 ## Advanced
-[Provider](https://github.com/Dreamacro/clash/wiki/Provider)
+[Provider](https://github.com/Echowxsy/clash/wiki/Provider)
 
 ## Documentations
 https://clash.gitbook.io/

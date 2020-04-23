@@ -4,9 +4,9 @@ import (
 	"context"
 	"net"
 
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/resolver"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/Echowxsy/clash/component/dialer"
+	"github.com/Echowxsy/clash/component/resolver"
+	C "github.com/Echowxsy/clash/constant"
 )
 
 type Direct struct {

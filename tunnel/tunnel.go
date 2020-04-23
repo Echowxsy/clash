@@ -7,13 +7,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/adapters/inbound"
-	"github.com/Dreamacro/clash/adapters/provider"
-	"github.com/Dreamacro/clash/component/nat"
-	"github.com/Dreamacro/clash/component/resolver"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/dns"
-	"github.com/Dreamacro/clash/log"
+	"github.com/Echowxsy/clash/adapters/inbound"
+	"github.com/Echowxsy/clash/adapters/provider"
+	"github.com/Echowxsy/clash/component/nat"
+	"github.com/Echowxsy/clash/component/resolver"
+	C "github.com/Echowxsy/clash/constant"
+	"github.com/Echowxsy/clash/dns"
+	"github.com/Echowxsy/clash/log"
 
 	channels "gopkg.in/eapache/channels.v1"
 )

@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/Dreamacro/clash/adapters/outbound"
-	"github.com/Dreamacro/clash/adapters/provider"
-	"github.com/Dreamacro/clash/common/singledo"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/Echowxsy/clash/adapters/outbound"
+	"github.com/Echowxsy/clash/adapters/provider"
+	"github.com/Echowxsy/clash/common/singledo"
+	C "github.com/Echowxsy/clash/constant"
 )
 
 type Selector struct {
