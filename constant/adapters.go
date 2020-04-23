@@ -13,6 +13,9 @@ const (
 	Reject
 
 	Shadowsocks
+	// clashR region
+	ShadowsocksR
+	// end of clashR
 	Snell
 	Socks5
 	Http
@@ -97,6 +100,10 @@ func (at AdapterType) String() string {
 
 	case Shadowsocks:
 		return "Shadowsocks"
+	// clashR region
+	case ShadowsocksR:
+		return "ShadowsocksR"
+	// end of clashR
 	case Snell:
 		return "Snell"
 	case Socks5:
